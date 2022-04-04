@@ -1,0 +1,993 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html,
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.firstBlock {
+  min-height: 500px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 0 70px 0;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.topMenu {
+  position: relative;
+  min-height: 50px;
+}
+
+.header {
+  margin: 45px 0 0 0;
+}
+
+.navigationMenu {
+  display: flex;
+  flex-direction: row;
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainPageLink {
+  width: 46px;
+  height: 48px;
+  background-image: url(/assets/img/logo.svg);
+  margin: 0;
+}
+
+.contactsLink {
+  width: 34px;
+  height: 38px;
+  background-image: url(/assets/img/contact.svg);
+}
+
+.navigationLink {
+  text-decoration: none;
+  color: #000;
+  text-align: right;
+}
+
+.contentInfo {
+  height: 480px;
+}
+
+.textBlock {
+  width: 504px;
+  height: auto;
+  margin: 0px 0px 0 0;
+}
+
+.headerTextBig {
+  font-size: 64px;
+  color: #1F3F68;
+  width: 510px;
+  letter-spacing: 0.04em;
+  font-size: 64px;
+  font-weight: 300;
+  width: 504px;
+  height: 148px;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #1F3F68;
+  width: 425px;
+}
+
+.paragraphInfo {
+  width: 425px;
+  letter-spacing: 0.05em;
+  margin: 32px 0 0 0;
+  color: #2c5285;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.6;
+  margin-bottom: 83px;
+}
+
+.projectsBtn {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+.headerTextTiny {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  margin-left: 32px;
+  margin-bottom: 12px;
+}
+.illustrationBg {
+  padding-top: 115px;
+  flex-grow: 1;
+  background-image: url('/assets/img/illustrationhomepage.png');
+  background-repeat: no-repeat;
+  background-position: right 150px;
+  background-size: 44%;
+  /*   
+  margin: 81px 0 0 0;
+  height: 481px;
+  width: 554px;
+  background-image: url('/assets/img/illustrationhomepage.png');
+  background-repeat: no-repeat; */
+}
+
+.upperTextBlock {
+  height: 100px;
+  margin-inline: auto;
+  margin: 64px 0;
+  margin-bottom: auto;
+  box-sizing: border-box;
+}
+
+.headerTextSmall {
+  font-size: 36px;
+  margin-top: 25px;
+  line-height: 46px;
+}
+
+.headerTextSmallCenter {
+  font-size: 36px;
+  margin-top: 64px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+}
+
+.mainContentBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.contentInfoBlock {
+  height: 481px;
+  width: 359px;
+  align-self: center;
+  margin-right: 32px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.goodsCard-1 {
+  flex-grow: 1;
+  width: 172px;
+  height: 121px;
+  margin: 44px 117px 0 70px;
+  align-self: center;
+}
+
+.goodsCard-2 {
+  flex-grow: 1;
+  width: 132px;
+  height: 126px;
+  margin: 44px 110px 42px 116px;
+  align-self: center;
+}
+
+.goodsCard-3 {
+  flex-grow: 1;
+  width: 148px;
+  height: 119px;
+  margin: 48px 117px 49px 95px;
+  align-self: center;
+}
+
+.goodsCardInformation {
+  margin-top: 48px;
+  width: 100%;
+}
+
+.paragraphInfoCard {
+  text-decoration: none;
+  color: #1F3F68;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  width: 295px;
+  margin: 0 0 28px 32px;
+  line-height: 26px;
+}
+
+.infoCardLink {
+display: flex;
+align-items: center;
+  text-decoration: none;
+  width: fit-content;
+  color: #5A98D0;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  margin: 0 0 44px 32px;
+}
+.infoCardLinkImg {
+    margin-left: 24px;
+}
+.contentContainerThird {
+  width: 1140px;
+  height: 46px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  margin-inline: auto;
+}
+
+.paragraphThirdContainer {
+  position: relative;
+  text-align: center;
+  margin-inline: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.contentContainerThirdSmall {
+  width: 750px;
+  height: 52px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.paragraphThirdContainerSmall {
+  width: 750px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  margin: 0 auto;
+}
+
+.projectsContainer {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+
+.project-1 {
+  max-width: 1140px;
+  height: 480px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.projectsContainerDivided {
+  display: flex;
+  flex-direction: row;
+  margin-left: 32px;
+  width: 1140px;
+  height: 417px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+
+.project-2 {
+  width: 554px;
+  height: 417px;
+  margin-right: 32px;
+}
+
+.appFirst {
+  margin-right: 32px;
+}
+
+.footerBlock {
+  background: #316099;
+}
+
+.footerInfo {
+  display: flex;
+  padding-top: 91px;
+  margin-bottom: 32px;
+  margin-top: 0;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.letsTalkBtn {
+    padding: 15px 80px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #5A98D0;
+    text-decoration: none;
+    height: 30px;
+    align-self: center;
+}
+
+.footerInfoText {
+  width: 490px;
+  height: 250px;
+}
+
+.textSmallInfo {
+  width: 340px;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.textParagraphInfo {
+  width: 495px;
+  margin: 50px 0 0 0;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+}
+
+hr {
+  height: 0px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ffffff8c;
+}
+
+.contactsBlock {
+  height: 200px;
+  margin-top: 25px;
+  padding-bottom: 57px;
+}
+
+.contacts {
+  margin: 64px 0 0 0;
+  width: 100%;
+}
+
+.contactsList {
+  text-decoration: none;
+  list-style-type: none;
+  color: #FFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin-top: 64px;
+  // width: 100%;
+}
+
+.allrightsReserved {
+  display: flex;
+  justify-content: flex-start;
+  color: #FFFF;
+  opacity: 0.4;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 100%;
+}
+
+.footerContactsText {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.headerTextMiddle {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  background-size: cover;
+  margin: 55px 0;
+  height: 250px;
+  background-image: url('/assets/img/contactsbg.png');
+
+}
+.contactBlockText {
+  padding: 50px 0;
+}
+
+.paragraphTextMiddle {
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.04em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.contactsblockPage {
+  margin-top: 100px;
+  max-height: 668px;
+
+}
+.contactsblockPageImg {
+  margin-bottom: 50px;
+}
+.paragraphContacts {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.contactsCall {
+  margin-top: 24px;
+  list-style: none;
+}
+.contactsNumbers {
+  display: flex;
+align-items: center;
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+text-decoration: none;
+  margin-bottom: 16px;
+opacity: 0.6;
+}
+.contactsNumbersPhone {
+  display: flex;
+align-items: center;
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+text-decoration: none;
+}
+.contactsNumbersPhoneImage {
+  margin-right: 19px;
+}
+.contactsMainText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68; 
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.contactsInformation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 96px;
+}
+
+.feedbackForm {
+  max-width: 540px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.formInput {
+  width: 428px;
+  height: 72px;
+padding: 21px 42px;
+border: 1px solid #356EAD;
+box-sizing: border-box;
+border-radius: 10px;
+opacity: 0.4;
+}
+.formText {
+  margin-bottom: 16px;
+  width: 428px;
+}
+.formTextName {
+  width: 428px;
+  margin-top: 32px;
+margin-bottom: 8px;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+opacity: 0.8;
+}
+.submitButton {
+  width: 428px;
+  margin-top: 72px;
+padding: 23px 160px;
+background: #5A98D0;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+border: none;
+}
+.submitButton:hover {
+  background: #5a99d0ad;
+}
+.messageBox {
+  height: 144px;
+}
+.map {
+  max-width: 100%;
+  height: 480px;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .illustrationBg {
+    background-position: right 220px;
+  }
+
+  .mainContentBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .upperTextBlock {
+    margin-top: 48px;
+    box-sizing: border-box;
+  }
+
+  .contentInfoBlock {
+    margin-bottom: 32px;
+  }
+
+  .contentContainerThird {
+    width: 100%;
+  }
+
+  .paragraphThirdContainer {
+    width: 100%;
+  }
+
+  .projectsContainer {
+    max-width: 960px;
+  }
+
+  .project-1 {
+    max-width: 1024px;
+  }
+
+  .projectPicture-1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .projectsContainerDivided {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .project-2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .appFirst {
+    max-width: 460px;
+  }
+
+  .appSecond {
+    max-width: 460px;
+  }
+
+  .footerInfo {
+    padding-top: 47px;
+    padding-left: 124px;
+  }
+
+  .textParagraphInfo {
+    width: 100%;
+  }
+
+  .letsTalkBtn {
+    padding: 3px 30px;
+    margin-left: 51px;
+    margin-right: 123px;
+  }
+
+  .footerContactsText {
+    margin-bottom: 25px;
+  }
+
+  .contactsList {
+    flex-direction: column;
+  }
+  .contactsInfo {
+    padding-left: 0;
+  }
+  .copyright {
+    padding-left: 87px;
+    margin-top: 0;
+  }
+  .contactBlock {
+    margin-top: 49px;
+    margin-bottom: 64px;
+    width: 100%;
+  }
+  .contactBlockText {
+    width: 100%;
+    padding-bottom: 18px;
+  }
+  .contactsblockPage {
+    margin-top: 0;
+    margin-bottom: 64px;
+  }
+  .contactsInformation {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 124px;
+    padding-right: 124px;
+    margin-bottom: 64px;
+  }
+  .formText {
+    width: 178px;
+    height: 29px;
+    padding-right: 250px;
+    margin-top: 55px;
+  }
+  .formInput {
+    width: 412px;
+    height: 70px;
+  }
+  .messageBox {
+    height: 140px;
+  }
+  .submitButton {
+    width: 412px;
+    height: 70px;
+    margin-top: 70px;
+  }
+  .map {
+    min-width: 100%;
+    max-height: 392px;
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+  }
+  .contactingblockPage {
+    padding-left: 123px;
+  }
+  .copyright {
+    padding: 0;
+  }
+  .contactsMainText {
+    padding-right: 200px;
+  }
+  .formTextName {
+    padding-left: 54px;
+  }
+
+}
+
+@media (max-width: 667px) {
+  .firstBlock {
+    min-width: 376px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    margin-top: 24px;
+  }
+
+  .contentInfo {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .illustrationBg {
+    background-image: none;
+  }
+
+  .headerTextBig {
+    width: 100%;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .paragraphInfo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .projectsBtn {
+    font-size: 12px;
+    line-height: 26px;
+    padding: 8px 8px;
+  }
+
+  .headerTextSmallCenter {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left
+  }
+
+  .headerTextSmall {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .upperTextBlock {
+    margin-top: 48px;
+  }
+
+  .mainContentBlock {
+    padding-top: 32px;
+  }
+
+  .contentInfoBlock {
+    margin-right: 0;
+    margin-bottom: 32px;
+    max-width: 667px;
+  }
+
+  .contentContainerThird {
+    width: 100%;
+  }
+
+  .paragraphThirdContainer {
+    width: 100%;
+  }
+
+  .contentContainerThirdSmall {
+    width: 100%;
+    margin-bottom: 200px;
+    margin-inline: auto;
+  }
+
+  .paragraphThirdContainerSmall {
+    width: 100%;
+  }
+
+  .projectsContainer {
+    width: 100%;
+  }
+
+  .project-1 {
+    width: 90%;
+    height: 145px;
+    padding-bottom: 32px;
+  }
+
+  .projectPicture-1 {
+    width: 100%;
+  }
+
+  .projectsContainerDivided {
+    max-width: 667px;
+    height: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .project-2 {
+    width: 90%;
+    padding-left: 24px;
+  }
+
+  .appFirst {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .appSecond {
+    margin: 0;
+    margin-top: 16px;
+    max-width: 100%;
+  }
+
+  .projectsContainer {
+    margin-bottom: 48px;
+  }
+
+  .footerBlock {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .footerInfoText {
+    width: 100%;
+    max-height: 112px;
+    margin-left: 0;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    word-wrap: break-word;
+
+  }
+
+  .textSmallInfo {
+    width: 100%;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .textParagraphInfo {
+    width: 100%;
+    min-height: 97px;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    height: auto;
+  }
+
+  .footerInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .letsTalkBtn {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 100px;
+
+  }
+
+  .contactsBlock {
+    padding: 0;
+    max-width: 667px;
+  }
+
+  .contacts {
+    margin-top: 32px;
+    margin-left: 0;
+  }
+
+  .contactsList {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footerContactsText {
+    padding-left: 16px;
+  }
+
+  .copyright {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    text-align: center;
+
+  }
+
+  .allrightsReserved {
+    justify-content: center;
+    max-width: 100%;
+  }
+  .header {
+    margin-top: 18px;
+  }
+  .contactBlock {
+    padding-bottom: 60px;
+    margin-top: 33px;
+    margin-bottom: 46px;
+  }
+  .contactsInformation {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .feedbackForm {
+    min-width: 343px;
+    margin-top: 32px;
+    padding: 0;
+    max-height: 600px;
+  }
+  .contactsMainText {
+    width: 271px;
+    min-height: 30px;
+    padding-right: 0;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .contactBlockText {
+    padding: 0;
+  }
+  .formTextName {
+    max-width: 271px;
+    max-height: 30px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .formInput {
+    max-width: 272px;
+    height: 47px;
+    padding: 10px 28px;
+  }
+  .messageBox {
+    min-height: 93px;
+  }
+  .submitButton {
+    max-width: 271px;
+    min-height: 56px;
+    margin-top: 30px;
+    padding: 15px 54px;
+  }
+  .map {
+    min-width: 100%;
+    max-height: 349px;
+    margin-bottom: 32px;
+  }
+  .allrightsReserved {
+    justify-content: flex-start;
+    padding-left: 16px;
+  }
+  .contactBlockText {
+    padding-top: 50px;
+  }
+  .contactingblockPage {
+    padding: 0;
+    padding-left: 17px;
+  }
+}
